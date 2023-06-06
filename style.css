@@ -50,52 +50,54 @@ div {
     cursor: pointer;
   }
 
+  section{
+    display: flex;
+  }
+
+  .photo {
+    width: 140px;
+    height: 500px;
+   
+    
+  
+    background-image: url('images/bw-image.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    
+    cursor: pointer;
+    
+    
+  
 
 
+  }
 
+  .a{
+    
+    
+  }
 
+  .b .photo{
+    background-position-x: 25%;
+  }
 
+  .c .photo{
+    background-position-x:  50%; 
+  }
 
+  .d .photo{
+    background-position-x: 75%;
+  }
 
+  .e .photo{
+    background-position-x: 100%;
+  }
 
+  .actor{
+    display: flex;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .description{
+    background-color: white;
+    width: 150px;
+  }
