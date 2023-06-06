@@ -52,30 +52,21 @@ div {
 
   section{
     display: flex;
+    justify-content: center;
   }
 
   .photo {
     width: 140px;
     height: 500px;
-   
-    
-  
     background-image: url('images/bw-image.jpg');
     background-repeat: no-repeat;
     background-position: 0 0;
     
     cursor: pointer;
-    
-    
+
+  }
+
   
-
-
-  }
-
-  .a{
-    
-    
-  }
 
   .b .photo{
     background-position-x: 25%;
@@ -96,8 +87,37 @@ div {
   .actor{
     display: flex;
   }
+  
+  .description {
+    width: 0px;
+    background-color:white ;
 
-  .description{
-    background-color: white;
-    width: 150px;
   }
+
+  .c .description {
+    background-color: white;
+    width: 280px;
+    
+    
+  }
+
+  .e .description {
+    overflow: hidden;
+  }
+
+  .active{
+    background-image: url(images/color-image.jpg);
+    
+  }
+
+
+
+  ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+  }
+
+ 
