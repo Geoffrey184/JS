@@ -68,19 +68,19 @@ div {
 
   
 
-  .b .photo{
+  .b {
     background-position-x: 25%;
   }
 
-  .c .photo{
+  .c {
     background-position-x:  50%; 
   }
 
-  .d .photo{
+  .d {
     background-position-x: 75%;
   }
 
-  .e .photo{
+  .e {
     background-position-x: 100%;
   }
 
