@@ -1,13 +1,17 @@
 $(function () {
+
+    $('.description').hide().css({width: 0});
+    $('.photo.active').next().show().css({width: '280px'});
+
     $('.photo').click(function() {
         if (!$(this).hasClass('active')) {
             $('.photo').removeClass('active');
-            $('.description').hide();
+            $('.description').hide().css({width: 0}); 
             $(this).addClass('active');
-            $('.description').animate({width: 0});
-            $(this).next().show().animate({width:'280px'});
+            $(this).next().show().animate({width:'280px'}); 
         }
     });
+
     $('.btnOne').click(function () {
         $('.a.photo').click();
     }); 
@@ -24,8 +28,3 @@ $(function () {
         $('.e.photo').click();
     }); 
 });
-
-
-
-    
-    

@@ -38,9 +38,8 @@ div {
     width: 80px;
     border-color: rgb(48, 45, 228);
     column-count: auto;
-    
+    margin-top: 40px;
 }
-
 #imageContainer {
     position: relative;
   }
@@ -110,14 +109,36 @@ div {
     
   }
 
-
-
   ul{
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     height: 100%;
+    gap: 50px;
+    transition: width 2s, ;
+  }
+
+  .artiste{
+    font-size: 40px;
+  
+  }
+
+  .best{
+    background-color: blue;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    margin-left: 29px;
+    border-radius: 12px;
+  }
+
+  .exe{
+    font-size: 30px;
+    
+    
   }
 
  
